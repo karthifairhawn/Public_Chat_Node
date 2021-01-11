@@ -2,9 +2,12 @@ html, body {
     margin: 0;
     background-color: #efefef;
     font-family: sans-serif;
+    background-image: url('https://i.pinimg.com/originals/fd/16/54/fd165458f3e8a42ab7e8c3111f90d504.jpg');
+    background-size: 100% 100%;
+
 }
 .wrapper {
-    width: 500px;
+    width: 510px;
     height: 640px;
     padding: 5px;
     margin: 0 auto;
@@ -26,8 +29,10 @@ html, body {
     display: none;
 }
 .banner {
-    height: 80px;
+    height: 60px;
     width: 100%;
+    color: red;
+    text-align: center;
 }
 .banner p {
     float: left;
@@ -43,6 +48,7 @@ html, body {
     background-color: #fff;
     overflow: auto;
     padding: 2px;
+
 }
 #historyMsg img {
     max-width: 99%;
