@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family:cursive;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+.bg-particle{
+    background-color: #9a6aa1;
+    opacity: 0.5;
+}
+#particles-js {
+    position: absolute;
+    width: 510px;
+    height: 545px;
+    
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+

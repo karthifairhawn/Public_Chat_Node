@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     background-color: #efefef;
     font-family: sans-serif;
@@ -6,13 +7,18 @@ html, body {
     background-size: 100% 100%;
 
 }
+
 .wrapper {
     width: 510px;
-    height: 640px;
+    height: 600px;
     padding: 5px;
     margin: 0 auto;
-    background-color: #ddd;
+    
 }
+#wrp-bg{
+    background: rgba(76, 175, 80, 0.3)
+}
+
 #loginWrapper {
     position: fixed;
     top: 0;
@@ -25,50 +31,63 @@ html, body {
     display: block;
     padding-top: 200px;
 }
+
 #nickWrapper {
     display: none;
 }
+
 .banner {
     height: 60px;
     width: 100%;
     color: red;
     text-align: center;
 }
+
 .banner p {
     float: left;
     display: inline-block;
 }
+
 .controls {
     height: 100px;
     margin: 5px 0px;
     position: relative;
+    
 }
+
 #historyMsg {
-    height: 400px;
+    height: 470px;
     background-color: #fff;
     overflow: auto;
     padding: 2px;
 
 }
+
 #historyMsg img {
     max-width: 99%;
 }
+
 .timespan {
     color: #ddd;
 }
+
 .items {
     height: 30px;
 }
+
 #colorStyle {
     width: 50px;
-    border: none;
+    outline-style: groove;
+    outline-color: rgba(5, 128, 81, .4); 
     padding: 0;
 }
+
 /*custom the file input*/
 
 .imageLable {
     position: relative;
 }
+
 #sendImage {
     position: absolute;
     width: 52px;
@@ -76,20 +95,23 @@ html, body {
     opacity: 0;
     overflow: hidden;
 }
+
 /*end custom file input*/
 
 #messageInput {
     width: 440px;
     max-width: 440px;
-    height: 90px;
+    height: 20px;
     max-height: 90px;
-    float:left;
+    float: left;
 }
+
 #sendBtn {
     width: 50px;
-    height: 96px;
+    height: 20px;
     float: right;
 }
+
 #emojiWrapper {
     display: none;
     width: 500px;
@@ -98,18 +120,57 @@ html, body {
     background-color: #aaa;
     box-shadow: 0 0 10px #555;
 }
+
 #emojiWrapper img {
     margin: 2px;
     padding: 2px;
     width: 25px;
     height: 25px;
 }
+
 #emojiWrapper img:hover {
     background-color: blue;
 }
-.emoji{
+
+.emoji {
     display: inline;
 }
-footer {
-    text-align: center;
+
+
+#status {
+    position: absolute;
+    right: 10px;
+    padding: 8px;
+    background-color: #ffbd73;
+    border-radius: 15px;
+} 
+#footer{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    padding: 8px;
+    background-color: #ffbd73;
+    border-radius: 15px;
 }
+/*Button style*/
+
+
+
+
+button {
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgba(5, 128, 81, .2); 
+    color: antiquewhite;
+    font-style: italic;
+    
+    
+}
+button:hover {
+    background-color: rgba(5, 128, 81, .5);
+    padding: 6px;
+  
+  
+}
+
+
